@@ -24,25 +24,9 @@ python run.py
 - **36**: "super realism, 4k, The swirling galaxies and celestial bodies are now accompanied by pulsating stars and radiant supernovae, with intricate light effects and a sense of motion. The smooth transition ensures that the cosmic wonder within the eye remains captivating and visually coherent."
 
 ## Animation
-
-<div style="align=center;">
-    <img src="assets/animation.gif" alt="Space Inside Us (Animation)">
-</div>
-
 ### Parameters
 
-- `Translation X`: `0:(0)`
-- `Translation Y`: `0:(0)`
-- `Translation Z`: `0:(7.5)`
-- `Strength Schedule`: `0: (0.65), 12: (0.70), 24: (0.8), 36: (0.85), 38: (0.65)`
-
-## Morphing
-<div style="align=center;">
-    <img src="assets/morphing.gif" alt="Space Inside Us (Morphing)">
-</div>
-
-### Parameters
-
-- `interpolate_key_frames`: `False`
-- `interpolate_x_frames`: `32` 
-
+| **Parameters**                                                                                                                                                                           | **Video**                                    |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|
+| `animation_mode`: `2D` <br>`Translation X`: `0:(0)`<br>`Translation Y`: `0:(0)`<br>`Translation Z`: `0:(7.5)`<br>`Strength Schedule`: `0: (0.65), 12: (0.70), 24: (0.8), 36: (0.85), 38: (0.65)` | ![Animation](assets/animation.gif)          |
+| `animation_mode`: `Interpolation` <br> `interpolate_key_frames`: `False`<br>`interpolate_x_frames`: `32`                                                                                                                       | ![Morphing](assets/morphing.gif)           |
