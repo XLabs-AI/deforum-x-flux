@@ -1,12 +1,16 @@
 # Description
 Deforum implementation based on flux-dev by XLabs-AI
 
-# Installation
+# Getting started
 
+## Instal requirements
 ```bash
 pip install -r requirements.txt
 ```
-
+## Run from cli
+```bash
+python run.py
+```
 # Examples 
 
 ## Animation
