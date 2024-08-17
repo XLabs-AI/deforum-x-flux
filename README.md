@@ -24,8 +24,9 @@ python run.py
 - **36**: "super realism, 4k, The swirling galaxies and celestial bodies are now accompanied by pulsating stars and radiant supernovae, with intricate light effects and a sense of motion. The smooth transition ensures that the cosmic wonder within the eye remains captivating and visually coherent."
 
 ## Animation
+
 <div style="align=center;">
-    <img src="assets/galaxy_inside_us.gif" alt="Space Inside Us (Animation)">
+    <img src="assets/animation.gif" alt="Space Inside Us (Animation)">
 </div>
 
 ### Parameters
