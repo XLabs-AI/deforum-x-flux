@@ -5,13 +5,12 @@
 ```bash
 pip install -r requirements.txt
 ```
-Or for a better experience, you can run `DEFORUM_FLUX.ipynb`.
 
 ## Run from CLI
 ```bash
 python run.py
 ```
-
+Or for a better experience, you can run `DEFORUM_FLUX.ipynb`.
 ## Examples 
 
 | **Parameters**                                                                                                                                                                           | **Video**                                    |
