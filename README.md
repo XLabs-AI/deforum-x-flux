@@ -42,6 +42,6 @@ python run.py
 
 ### Parameters
 
-- `interpolate_key_frames` = `False`
-- `interpolate_x_frames` = `32` 
+- `interpolate_key_frames`: `False`
+- `interpolate_x_frames`: `32` 
 
