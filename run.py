@@ -87,13 +87,16 @@ def ffmpegArgs():
 
 
 class Model: 
-    def __init__(self): 
-        self.dit, self.ae, self.t5, self.clip = self.get_models("flux-dev", 'cuda', offload=False, is_schnell=False)
+    def __init__(self, name="flux-dev", quantized=True):
+        self.dit, self.ae, self.t5, self.clip = self.get_models(name, 'cuda', offload=False, is_schnell=False, quantized=quantized)
         
-    def get_models(self, name: str, device: torch.device, offload: bool, is_schnell: bool):
+    def get_models(self, name:str, device: torch.device, offload: bool, is_schnell: bool, quantized=True):
         t5 = load_t5(device, max_length=256 if is_schnell else 512)
         clip = load_clip(device)
-        dit = load_flow_model(name, device="cpu" if offload else device)
+        if quantized:
+            dit = load_flow_model_quintized("flux-dev-fp8", device="cpu" if offload else device)
+        else:
+            dit = load_flow_model(name, device="cpu" if offload else device)
         ae = load_ae(name, device="cpu" if offload else device)
         return dit, ae, t5, clip
     
@@ -112,7 +115,7 @@ def ModelSetup():
     custom_checkpoint_path = "" #@param {type:"string"}
     map_location = "cuda" #@param ["cpu", "cuda"]
     device = torch.device(map_location)
-    model = Model()
+    model = Model("flux-dev-fp8", quantized=True)
     return locals()
 
 root.__dict__.update(ModelSetup())
