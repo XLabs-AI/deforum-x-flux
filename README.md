@@ -40,7 +40,7 @@ We would like to acknowledge the [Deforum project](https://github.com/deforum-ar
 We are free and happy to see any contributors! Feel free to submit issues, suggest improvements, or contribute code.
 
 # TODO
-- [ ] FP8 version
+- [ ] Quantized Flux integration
 - [ ] Integration with ControlNet
 - [ ] IP-adapter integration
 
