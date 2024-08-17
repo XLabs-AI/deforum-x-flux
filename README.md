@@ -1,5 +1,5 @@
 # Description
-Deforum implementation based on flux-dev by XLabs
+Deforum implementation based on flux-dev by XLabs-AI
 
 # Installation
 
