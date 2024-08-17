@@ -7,6 +7,8 @@ Deforum implementation based on flux-dev by XLabs-AI
 ```bash
 pip install -r requirements.txt
 ```
+Or for better experience you can run `FLUX.ipynb`
+
 ## Run from cli
 ```bash
 python run.py
