@@ -1,5 +1,5 @@
 
-# Deforum implementation based on flux-dev by XLabs-AI
+# Deforum based on flux-dev by XLabs-AI
 
 ### Install requirements
 ```bash
