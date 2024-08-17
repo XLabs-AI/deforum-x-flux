@@ -1,12 +1,20 @@
-# Example videos
+# Description
+Deforum implementation based on flux-dev by XLabs
 
-## Animation 'Galaxy Inside Us'
+# Installation
 
-<div style="text-align: center;">
+```bash
+pip install -r requirements.txt
+```
+
+# Examples 
+
+## Animation
+<div style="align=center;">
     <img src="assets/galaxy_inside_us.gif" alt="Space Inside Us">
 </div>
 
-## Prompts
+### Prompts
 
 - **0**: "super realism, 4k, a highly detailed close-up view of a woman's mesmerizing blue eye, with realistic reflections and an intense natural sparkle. The iris displays intricate patterns of deep blues and subtle hints of lighter hues, while delicate veins add to the eye's natural complexity. Soft, diffused lighting enhances the eye's depth, with a blurred background to emphasize the eye's captivating beauty and detail."
 
@@ -16,7 +24,7 @@
 
 - **36**: "super realism, 4k, The swirling galaxies and celestial bodies are now accompanied by pulsating stars and radiant supernovae, with intricate light effects and a sense of motion. The smooth transition ensures that the cosmic wonder within the eye remains captivating and visually coherent."
 
-## Parameters
+### Parameters
 
 - `Translation X`: `0:(0)`
 - `Translation Y`: `0:(0)`
