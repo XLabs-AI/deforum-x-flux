@@ -1,6 +1,11 @@
 
 # Deforum based on flux-dev by XLabs-AI
 
+### Clone repository
+```bash
+git clone https://github.com/XLabs-AI/deforum-x-flux.git
+cd deforum-x-flux
+```
 ### Install requirements
 ```bash
 pip install -r requirements.txt
