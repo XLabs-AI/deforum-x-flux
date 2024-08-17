@@ -144,12 +144,23 @@ def generate(args, root, frame=0, return_latent=False, return_sample=False, retu
 
             
             if args.init_c is None: 
-                inp = prepare(t5=root.model.t5, clip=root.model.clip, img=x, prompt=cond_prompts[0])
+                c = prepare(t5=root.model.t5, clip=root.model.clip, img=x, prompt=cond_prompts[0])
+                uc = prepare(
+                    t5=root.model.t5, 
+                    clip=root.model.clip, 
+                    img=x, 
+                    prompt=uncond_prompts[0]
+                )
+                uc = {f"neg_{k}":v for k, v in neg_inp_cond.items() if "img" not in k}
+                inp = {}
+                inp.update(c)
+                inp.update(uc)
+                
             else: 
                 inp = args.init_c
                 
             # denoise initial noise
-            samples = denoise(root.model.dit, **inp, timesteps=timesteps, guidance=args.scale).to(torch.float32)
+            samples = denoise(root.model.dit, **inp, timesteps=timesteps, true_gs=args.scale).to(torch.float32)
 
             # decode latents to pixel space
             samples = unpack(samples, args.H, args.W)
