@@ -1,26 +1,23 @@
-# Description
-Deforum implementation based on flux-dev by XLabs-AI
 
-# Getting started
+# Deforum implementation based on flux-dev by XLabs-AI
 
-## Instal requirements
+### Install requirements
 ```bash
 pip install -r requirements.txt
 ```
-Or for better experience you can run `DEFORUM_FLUX.ipynb`
+Or for a better experience, you can run `DEFORUM_FLUX.ipynb`.
 
-## Run from cli
+## Run from CLI
 ```bash
 python run.py
 ```
-# Examples 
+
+## Examples 
 
 | **Parameters**                                                                                                                                                                           | **Video**                                    |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|
 | `animation_mode`: `3D` <br>`Translation X`: `0:(0)`<br>`Translation Y`: `0:(0)`<br>`Translation Z`: `0:(7.5)`<br>`Strength Schedule`: `0: (0.65), 12: (0.70), 24: (0.8), 36: (0.85), 38: (0.65)` | ![Animation](assets/animation.gif)          |
 | `animation_mode`: `Interpolation` <br> `interpolate_key_frames`: `False`<br>`interpolate_x_frames`: `32`                                                                                                                       | ![Morphing](assets/morphing.gif)           |
-
-
 
 ### Prompts
 
@@ -31,3 +28,19 @@ python run.py
 - **24**: "super realism, 4k, grand cosmic vista contained within the eye. The eye now features swirling galaxies with vibrant, spiraling arms, and floating celestial bodies such as distant planets and shimmering asteroids. Nebulae continue to swirl with dynamic, vivid colors, creating a surreal and expansive universe that feels both infinite and intimately contained within the eye's bounds."
 
 - **36**: "super realism, 4k, The swirling galaxies and celestial bodies are now accompanied by pulsating stars and radiant supernovae, with intricate light effects and a sense of motion. The smooth transition ensures that the cosmic wonder within the eye remains captivating and visually coherent."
+
+# Acknowledgements
+We would like to acknowledge the [Deforum project](https://github.com/deforum-art/deforum-stable-diffusion.git) for their contributions to this implementation.
+
+# Contributing
+We are free and happy to see any contributors! Feel free to submit issues, suggest improvements, or contribute code.
+
+# TODO
+- Integration with ControlNet
+- IP-adapter integration
+
+# Join Us
+For updates and discussions, join our [Discord server](https://discord.gg/Hw8cpX6P).
+```
+
+Feel free to adjust the wording if needed!
