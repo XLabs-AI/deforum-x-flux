@@ -40,8 +40,9 @@ We would like to acknowledge the [Deforum project](https://github.com/deforum-ar
 We are free and happy to see any contributors! Feel free to submit issues, suggest improvements, or contribute code.
 
 # TODO
-- Integration with ControlNet
-- IP-adapter integration
+- [ ] FP8 version
+- [ ] Integration with ControlNet
+- [ ] IP-adapter integration
 
 # Join Us
 For updates and discussions, join our [Discord server](https://discord.gg/Hw8cpX6P).
