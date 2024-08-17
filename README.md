@@ -13,6 +13,13 @@ python run.py
 ```
 # Examples 
 
+| **Parameters**                                                                                                                                                                           | **Video**                                    |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|
+| `animation_mode`: `3D` <br>`Translation X`: `0:(0)`<br>`Translation Y`: `0:(0)`<br>`Translation Z`: `0:(7.5)`<br>`Strength Schedule`: `0: (0.65), 12: (0.70), 24: (0.8), 36: (0.85), 38: (0.65)` | ![Animation](assets/animation.gif)          |
+| `animation_mode`: `Interpolation` <br> `interpolate_key_frames`: `False`<br>`interpolate_x_frames`: `32`                                                                                                                       | ![Morphing](assets/morphing.gif)           |
+
+
+
 ### Prompts
 
 - **0**: "super realism, 4k, a highly detailed close-up view of a woman's mesmerizing blue eye, with realistic reflections and an intense natural sparkle. The iris displays intricate patterns of deep blues and subtle hints of lighter hues, while delicate veins add to the eye's natural complexity. Soft, diffused lighting enhances the eye's depth, with a blurred background to emphasize the eye's captivating beauty and detail."
@@ -22,11 +29,3 @@ python run.py
 - **24**: "super realism, 4k, grand cosmic vista contained within the eye. The eye now features swirling galaxies with vibrant, spiraling arms, and floating celestial bodies such as distant planets and shimmering asteroids. Nebulae continue to swirl with dynamic, vivid colors, creating a surreal and expansive universe that feels both infinite and intimately contained within the eye's bounds."
 
 - **36**: "super realism, 4k, The swirling galaxies and celestial bodies are now accompanied by pulsating stars and radiant supernovae, with intricate light effects and a sense of motion. The smooth transition ensures that the cosmic wonder within the eye remains captivating and visually coherent."
-
-## Animation
-### Parameters
-
-| **Parameters**                                                                                                                                                                           | **Video**                                    |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|
-| `animation_mode`: `3D` <br>`Translation X`: `0:(0)`<br>`Translation Y`: `0:(0)`<br>`Translation Z`: `0:(7.5)`<br>`Strength Schedule`: `0: (0.65), 12: (0.70), 24: (0.8), 36: (0.85), 38: (0.65)` | ![Animation](assets/animation.gif)          |
-| `animation_mode`: `Interpolation` <br> `interpolate_key_frames`: `False`<br>`interpolate_x_frames`: `32`                                                                                                                       | ![Morphing](assets/morphing.gif)           |
