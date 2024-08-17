@@ -7,6 +7,7 @@ sentencepiece
 tokenizers
 transformers
 triton
+numexpr
 xgboost
 einops
 huggingface-hub

@@ -151,7 +151,7 @@ def generate(args, root, frame=0, return_latent=False, return_sample=False, retu
                     img=x, 
                     prompt=uncond_prompts[0]
                 )
-                uc = {f"neg_{k}":v for k, v in neg_inp_cond.items() if "img" not in k}
+                uc = {f"neg_{k}":v for k, v in uc.items() if "img" not in k}
                 inp = {}
                 inp.update(c)
                 inp.update(uc)
@@ -160,7 +160,7 @@ def generate(args, root, frame=0, return_latent=False, return_sample=False, retu
                 inp = args.init_c
                 
             # denoise initial noise
-            samples = denoise(root.model.dit, **inp, timesteps=timesteps, true_gs=args.scale).to(torch.float32)
+            samples = denoise(root.model.dit, **inp, timesteps=timesteps, true_gs=args.scale, timestep_to_start_cfg=1).to(torch.float32)
 
             # decode latents to pixel space
             samples = unpack(samples, args.H, args.W)
