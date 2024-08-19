@@ -53,6 +53,7 @@ from src.flux.util import (
     configs, 
     load_ae, 
     load_clip,
+    load_flow_model_quintized,
     load_flow_model, 
     load_t5
 )
