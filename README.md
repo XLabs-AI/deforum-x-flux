@@ -46,3 +46,4 @@ We are free and happy to see any contributors! Feel free to submit issues, sugge
 
 # Join Us
 For updates and discussions, join our [Discord server](https://discord.gg/Hw8cpX6P).
+[<img src="https://github.com/XLabs-AI/x-flux/blob/main/assets/readme/light/join-our-discord-rev1.png?raw=true">](https://discord.gg/FHY2guThfy)
