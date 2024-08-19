@@ -1,4 +1,4 @@
-
+![FLUX Finetuning scripts](./assets/flux-deforum-git-rev1.png)
 # Deforum based on flux-dev by XLabs-AI
 
 ### Clone repository
