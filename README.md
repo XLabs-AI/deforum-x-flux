@@ -3,7 +3,7 @@
 
 ### Clone repository
 ```bash
-git clone https://github.com/XLabs-AI/deforum-x-flux.git
+git clone --recurse-submodules https://github.com/XLabs-AI/deforum-x-flux.git
 cd deforum-x-flux
 ```
 ### Install requirements
