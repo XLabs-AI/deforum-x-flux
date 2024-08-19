@@ -46,6 +46,3 @@ We are free and happy to see any contributors! Feel free to submit issues, sugge
 
 # Join Us
 For updates and discussions, join our [Discord server](https://discord.gg/Hw8cpX6P).
-```
-
-Feel free to adjust the wording if needed!
