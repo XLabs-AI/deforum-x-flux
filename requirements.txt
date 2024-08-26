@@ -1,12 +1,11 @@
-torch==2.4.0
-torchvision --index-url https://download.pytorch.org/whl/test/cu124
-torchaudio --index-url https://download.pytorch.org/whl/test/cu124
-torchmetrics==1.4.1
+torch
+torchvision
+torchaudio
+torchmetrics
 pytorch-lightning
 sentencepiece
 tokenizers
 transformers
-triton
 numexpr
 xgboost
 einops
