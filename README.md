@@ -6,9 +6,16 @@
 git clone --recurse-submodules https://github.com/XLabs-AI/deforum-x-flux.git
 cd deforum-x-flux
 ```
+
+### Create virtual environment
+```
+python3 -m venv deforum_xflux_env
+source deforum_xflux_env/bin/activate
+```
+
 ### Install requirements
 ```bash
-pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 ```
 
 ## Run from CLI
