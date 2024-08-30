@@ -1,7 +1,3 @@
-# Standard library imports
-import os
-
-# Related third-party imports
 import torch
 import numpy as np
 from PIL import Image
@@ -20,7 +16,6 @@ import time
 from glob import iglob
 from io import BytesIO
 
-import torch
 from dataclasses import dataclass
 
 from einops import rearrange
