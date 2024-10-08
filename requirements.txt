@@ -22,3 +22,6 @@ regex
 safetensors
 sympy
 timm
+matplotlib
+pandas
+scikit-image
